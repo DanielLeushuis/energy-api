@@ -23,6 +23,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'com.microsoft.sqlserver:mssql-jdbc:11.2.1.jre17'
 	implementation 'software.amazon.awssdk:s3:2.20.30'
+	implementation 'javax.persistence:javax.persistence-api:2.2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
